@@ -14,11 +14,10 @@ if (mobileNumber === "" || mobileNumber === null){
     if ( user2 === "" || user2 === null){
         user1.shift();
     } else{
-        user2.unshift("iHunar")
+        user1.unshift("iHunar")
     }
 }
 console.log(user1);
-// console.log(user2);
 
 
 
